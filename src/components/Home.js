@@ -11,7 +11,7 @@ function Home() {
     const [movies, setMovies] = useState([]);
     const [searchValue, setSearchValue] = useState('');
     const [favourites, setFavourites] = useState([]);
-    const [checkFavourites, setCheckFavourites] = useState([]);
+    // const [checkFavourites, setCheckFavourites] = useState([]);
 
     const navigate = useNavigate()
 
