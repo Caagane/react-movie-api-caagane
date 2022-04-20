@@ -75,10 +75,12 @@ function Home() {
     }, [searchValue]);
 
 
+    const serchVisiblity = true;
+
     return (
 
         <div className='container movie-app'>
-            <Navbar searchValue={searchValue} setSearchValue={setSearchValue} />
+            <Navbar serchVisiblity={serchVisiblity} searchValue={searchValue} setSearchValue={setSearchValue} />
             <div className='row m-auto mb-5 justify-content-center'>
                 <MovieListHeading heading='Movies' />
             </div>
